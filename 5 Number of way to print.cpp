@@ -20,7 +20,7 @@ int main()
         b=x+str[i+1];
         c=b-48;
         cout<<"c="<<c<<endl;
-        if(c<=26)
+        if(c<=26 && c>0)
             {
                 count++;
             }
